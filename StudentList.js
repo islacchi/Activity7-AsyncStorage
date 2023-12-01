@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { View, Text, Modal, Button, TouchableOpacity, StyleSheet, ScrollView, Dimensions } from 'react-native';
-import {DataTable} from 'react-native-paper';
+import { View, Text, Modal, TouchableOpacity, StyleSheet, ScrollView, Dimensions } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import {DataTable} from 'react-native-paper';
 
 const sHeight = Dimensions.get('window').height;
 
